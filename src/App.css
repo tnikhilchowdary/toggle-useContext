@@ -36,3 +36,43 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* App.css */
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Light mode */
+.light {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* Dark mode */
+.dark {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #444;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background-color: #666;
+}
